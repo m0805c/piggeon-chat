@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Textos en español (idioma por defecto) -->
+<resources>
+    <string name="app_name">Piggeon Chat</string>
+
+    <!-- Login -->
+    <string name="login_title">Iniciar sesión</string>
+    <string name="email_hint">Correo electrónico</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="btn_login">Entrar</string>
+    <string name="btn_go_register">Crear cuenta</string>
+    <string name="err_login_invalid">Correo o contraseña incorrectos</string>
+    <string name="err_not_verified">Debes verificar tu correo antes de entrar</string>
+
+    <!-- Registro (usuario + confirmación de contraseña) -->
+    <string name="register_title">Crear usuario</string>
+    <string name="confirm_password_hint">Confirmar contraseña</string>
+    <string name="btn_register">Registrarme</string>
+    <string name="err_invalid_email">Correo no válido</string>
+    <string name="err_password_short">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="err_password_mismatch">Las contraseñas no coinciden</string>
+    <string name="err_email_exists">Ese correo ya está registrado</string>
+
+    <!-- Verificación de correo -->
+    <string name="verify_title">Verifica tu correo</string>
+    <string name="verify_info">Enviamos un código a %1$s. (Modo demo sin Firebase, código: %2$s)</string>
+    <string name="verify_code_hint">Código de 4 dígitos</string>
+    <string name="btn_verify">Verificar</string>
+    <string name="verify_ok">Correo verificado</string>
+    <string name="err_code_wrong">Código incorrecto</string>
+
+    <!-- Inicio (lista de chats) -->
+    <string name="home_title">Mis chats</string>
+    <string name="role_label">Rol: %1$s</string>
+    <string name="role_admin">Administrador</string>
+    <string name="role_user">Usuario</string>
+    <string name="admin_only">Panel de administrador: %1$d usuarios registrados</string>
+    <string name="btn_logout">Cerrar sesión</string>
+    <string name="btn_language">Idioma</string>
+    <string name="btn_video_call">Videollamada</string>
+
+    <!-- Chat -->
+    <string name="chat_hint">Escribe un mensaje</string>
+    <string name="btn_send">Enviar</string>
+
+    <!-- Videollamada -->
+    <string name="call_pick_title">¿A quién llamar?</string>
+    <string name="no_contacts">No hay contactos</string>
+    <string name="cancel">Cancelar</string>
+    <string name="call_with">Llamada con %1$s</string>
+    <string name="call_calling">Llamando…</string>
+    <string name="call_connected">Conectado</string>
+    <string name="call_ended">Finalizado</string>
+    <string name="btn_mute">Silenciar</string>
+    <string name="btn_unmute">Activar micro</string>
+    <string name="btn_camera_off">Apagar cámara</string>
+    <string name="btn_camera_on">Encender cámara</string>
+    <string name="btn_end_call">Terminar</string>
+    <string name="camera_off_text">Cámara apagada</string>
+    <string name="permission_denied">Se necesitan permisos de cámara y micrófono para ver tu imagen</string>
+</resources>

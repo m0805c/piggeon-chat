@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema base de la app (Material 3, sin barra de acción) -->
+    <style name="Theme.PiggeonChat" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/piggeon_primary</item>
+    </style>
+</resources>

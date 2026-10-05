@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permisos para la videollamada -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PiggeonChat"
+        tools:targetApi="34">
+
+        <!-- Pantalla de inicio de la app: el login -->
+        <activity
+            android:name=".activities.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activities.RegisterActivity" android:exported="false" />
+        <activity android:name=".activities.VerifyEmailActivity" android:exported="false" />
+        <activity android:name=".activities.HomeActivity" android:exported="false" />
+        <activity android:name=".activities.ChatActivity" android:exported="false" />
+        <activity android:name=".activities.VideoCallActivity" android:exported="false" />
+
+    </application>
+
+</manifest>

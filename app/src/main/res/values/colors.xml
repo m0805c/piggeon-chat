@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="piggeon_primary">#1E88E5</color>
+    <color name="bubble_mine">#DCF8C6</color>
+    <color name="bubble_other">#FFFFFF</color>
+    <color name="unread_badge">#E53935</color>
+    <color name="screen_background">#ECEFF1</color>
+    <color name="call_background">#263238</color>
+    <color name="call_end">#D32F2F</color>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- English texts (used when the app language is English) -->
+<resources>
+    <string name="app_name">Piggeon Chat</string>
+
+    <!-- Login -->
+    <string name="login_title">Sign in</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="btn_login">Log in</string>
+    <string name="btn_go_register">Create account</string>
+    <string name="err_login_invalid">Wrong email or password</string>
+    <string name="err_not_verified">You must verify your email before logging in</string>
+
+    <!-- Register (user + password confirmation) -->
+    <string name="register_title">Create user</string>
+    <string name="confirm_password_hint">Confirm password</string>
+    <string name="btn_register">Register</string>
+    <string name="err_invalid_email">Invalid email</string>
+    <string name="err_password_short">Password must have at least 6 characters</string>
+    <string name="err_password_mismatch">Passwords do not match</string>
+    <string name="err_email_exists">That email is already registered</string>
+
+    <!-- Email verification -->
+    <string name="verify_title">Verify your email</string>
+    <string name="verify_info">We sent a code to %1$s. (Demo mode without Firebase, code: %2$s)</string>
+    <string name="verify_code_hint">4-digit code</string>
+    <string name="btn_verify">Verify</string>
+    <string name="verify_ok">Email verified</string>
+    <string name="err_code_wrong">Wrong code</string>
+
+    <!-- Home (chat list) -->
+    <string name="home_title">My chats</string>
+    <string name="role_label">Role: %1$s</string>
+    <string name="role_admin">Administrator</string>
+    <string name="role_user">User</string>
+    <string name="admin_only">Admin panel: %1$d registered users</string>
+    <string name="btn_logout">Log out</string>
+    <string name="btn_language">Language</string>
+    <string name="btn_video_call">Video call</string>
+
+    <!-- Chat -->
+    <string name="chat_hint">Type a message</string>
+    <string name="btn_send">Send</string>
+
+    <!-- Video call -->
+    <string name="call_pick_title">Who do you want to call?</string>
+    <string name="no_contacts">No contacts</string>
+    <string name="cancel">Cancel</string>
+    <string name="call_with">Call with %1$s</string>
+    <string name="call_calling">Calling…</string>
+    <string name="call_connected">Connected</string>
+    <string name="call_ended">Ended</string>
+    <string name="btn_mute">Mute</string>
+    <string name="btn_unmute">Unmute</string>
+    <string name="btn_camera_off">Turn camera off</string>
+    <string name="btn_camera_on">Turn camera on</string>
+    <string name="btn_end_call">End</string>
+    <string name="camera_off_text">Camera off</string>
+    <string name="permission_denied">Camera and microphone permissions are needed to show your video</string>
+</resources>

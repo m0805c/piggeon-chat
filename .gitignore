@@ -8,3 +8,6 @@ local.properties
 captures/
 .externalNativeBuild/
 .cxx/
+
+# Configuración de Firebase (datos del proyecto, no subir)
+app/google-services.json

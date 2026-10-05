@@ -1,5 +1,6 @@
 package com.piggeon.chat.activities
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
@@ -60,6 +61,15 @@ class ChatActivity : AppCompatActivity() {
         }
 
         binding.btnSend.setOnClickListener { sendCurrentMessage() }
+        binding.btnVideoCall.setOnClickListener { startVideoCall() }
+    }
+
+    private fun startVideoCall() {
+        val contactName = binding.tvContactName.text.toString()
+        startActivity(
+            Intent(this, VideoCallActivity::class.java)
+                .putExtra(VideoCallActivity.EXTRA_CONTACT_NAME, contactName)
+        )
     }
 
     private fun sendCurrentMessage() {

@@ -5,8 +5,6 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.app.AppCompatDelegate
-import androidx.core.os.LocaleListCompat
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.piggeon.chat.R
@@ -22,8 +20,7 @@ import kotlinx.coroutines.launch
 
 /**
  * Pantalla principal: lista de chats con indicador de no leídos.
- * Desde aquí se abre un chat, se inicia una videollamada, se cambia el idioma
- * (Actividad 5) y se muestra el rol del usuario (Actividad 6).
+ * Desde aquí se abre un chat, se inicia una videollamada y se muestra el rol del usuario.
  */
 class HomeActivity : AppCompatActivity() {
 
@@ -78,22 +75,11 @@ class HomeActivity : AppCompatActivity() {
             }
         }
 
-        binding.btnLanguage.setOnClickListener { toggleLanguage() }
         binding.btnVideoCall.setOnClickListener { pickContactToCall() }
         binding.btnLogout.setOnClickListener {
             SessionManager.logout(this)
             goToLogin()
         }
-    }
-
-    /**
-     * Actividad 5: cambia entre español e inglés.
-     * AppCompat recrea la pantalla con los textos del nuevo idioma.
-     */
-    private fun toggleLanguage() {
-        val currentLanguage = resources.configuration.locales[0].language
-        val next = if (currentLanguage == "en") "es" else "en"
-        AppCompatDelegate.setApplicationLocales(LocaleListCompat.forLanguageTags(next))
     }
 
     /** Muestra la lista de contactos para elegir a quién llamar. */

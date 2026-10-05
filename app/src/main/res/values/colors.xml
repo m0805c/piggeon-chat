@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="piggeon_primary">#1E88E5</color>
-    <color name="bubble_mine">#DCF8C6</color>
-    <color name="bubble_other">#FFFFFF</color>
+    <!-- Base Morada -->
+    <color name="piggeon_primary">#6200EE</color>
+    <color name="piggeon_primary_light">#BB86FC</color>
+
+    <!-- Burbujas de chat -->
+    <color name="bubble_mine">#D1C4E9</color> <!-- Morado claro -->
+    <color name="bubble_other">#FFFFFF</color> <!-- Blanco -->
+
     <color name="unread_badge">#E53935</color>
-    <color name="screen_background">#ECEFF1</color>
-    <color name="call_background">#263238</color>
+    <color name="screen_background">#F5F5F5</color> <!-- Blanco humo / gris muy claro -->
+    <color name="call_background">#121212</color>
     <color name="call_end">#D32F2F</color>
+
+    <!-- Otros colores de apoyo -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
 </resources>
